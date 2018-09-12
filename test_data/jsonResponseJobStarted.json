@@ -1,0 +1,20 @@
+{
+  "_links":{
+    "self":{
+      "href":"/bulk/export/jobs/167049"
+    }
+  },
+  "id":167049,
+  "status":"STARTED",
+  "type":"EXPORT",
+  "creationTime":"2018-08-15T13:12:31.586",
+  "startTime":"2018-08-15T13:12:31.589",
+  "lastUpdateTime":"2018-08-15T13:12:31.589",
+  "jobName":"export_3GPP_2018-08-15T13-12-31-150_d0863a0a-0eda-44c3-a422-a62f1960a7e9",
+  "expectedNodesExported":794,
+  "nodesExported":138,
+  "nodesNotExported":0,
+  "nodesNoMatchFound":0,
+  "numberOfMosExported":1270800,
+  "userId":"CIP-26127"
+}

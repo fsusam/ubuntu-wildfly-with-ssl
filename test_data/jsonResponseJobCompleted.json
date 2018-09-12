@@ -1,0 +1,26 @@
+{
+  "_links": {
+    "self": {
+      "href": "/bulk/export/jobs/167049"
+    },
+    "reports": {
+      "href": "/bulk/export/reports/167049"
+    }
+  },
+  "id": 167049,
+  "status": "COMPLETED",
+  "statusReason": "COMPLETED",
+  "type": "EXPORT",
+  "creationTime": "2018-08-10T15:15:12.841",
+  "startTime": "2018-08-10T15:15:12.871",
+  "endTime": "2018-08-10T15:22:40.853",
+  "lastUpdateTime": "2018-08-10T15:15:12.871",
+  "jobName": "export_3GPP_2018-08-10T15-15-11-793_9a3f0f86-bd06-4024-8531-d0be2d0d989f",
+  "expectedNodesExported": 796,
+  "nodesExported": 796,
+  "nodesNotExported": 0,
+  "nodesNoMatchFound": 0,
+  "numberOfMosExported": 7624150,
+  "userId": "CIP-26127",
+  "fileUri": "/bulk/export/PZcVUIcLCYUEdfGZUWTRBPZaNFUaPZcYVFIKaafWdAKKTATZRKKQVVUHDAexport_3GPP_2018-08-10T15-15-11-793_9a3f0f86-bd06-4024-8531-d0be2d0d989f.zip"
+}
