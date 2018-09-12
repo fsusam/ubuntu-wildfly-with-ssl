@@ -35,7 +35,7 @@ RUN keytool -import -v -trustcacerts -alias server  -file server.cer -keystore c
 # Host the service at HTTPS port
 RUN sed -i -e 's/8443/443/g' $JBOSS_HOME/standalone/configuration/standalone.xml	
 
-COPY ear/stubbed-enm-ear-1.0.84-SNAPSHOT.ear  $JBOSS_HOME/standalone/deployments/stubbed-enm-ear.ear
+COPY ear/stubbed-enm-ear.ear  $JBOSS_HOME/standalone/deployments/stubbed-enm-ear.ear
 COPY test_data/*.zip  /bulk/export/
 COPY test_data/*.json  /opt/test_data/
 
